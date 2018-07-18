@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseNotificationClass.cs" />
+    <Compile Include="EventArgs\GameMessageEventArgs.cs" />
     <Compile Include="Factories\MonsterFactory.cs" />
     <Compile Include="Factories\QuestFactory.cs" />
     <Compile Include="Factories\WorldFactory.cs" />
@@ -59,7 +60,9 @@
     <Compile Include="RandomNumberGenerator.cs" />
     <Compile Include="ViewModels\GameSession.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Locations\FarmFields.png" />
     <Resource Include="Images\Locations\Farmhouse.png" />
